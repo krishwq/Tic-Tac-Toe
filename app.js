@@ -17,6 +17,8 @@ const resetbtn=()=>{
    for(box of boxes){
     box.classList.remove("green");
     box.classList.add("white");
+    box.classList.remove("blue");
+    box.classList.remove("red");
    }
 
 }
